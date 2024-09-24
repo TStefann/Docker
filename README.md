@@ -1,7 +1,7 @@
 
-# Node.js Express, React, MongoDB and Cypress Development and Testing environment with Docker
+# Node.js, React, MongoDB and Cypress Development and Testing environment with Docker
 
-This project is a Dockerized full-stack web application that uses **Node.js** for the backend, **React** for the frontend, and **MongoDB** as the database and **Cypress** as e2e library. The purpose of this project is to create a fully containerized development and testing environment, where you can run a single command to get it up and running.
+This project is a Dockerized full-stack web application that uses **Node.js** for the backend, **React** for the frontend, **MongoDB** as the database and **Cypress** as e2e library. The purpose of this project is to create a fully containerized development and testing environment, where you can run a single command to get it up and running.
 
 ## Table of Contents
 
@@ -35,7 +35,6 @@ Before you can run this project, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/TStefann/Docker.git
-cd your-repo-name
 ```
 
 ### 2. Run the application
