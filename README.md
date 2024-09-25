@@ -93,12 +93,12 @@ docker-compose down --volumes
 ## Run Cypress tests 
 
 ```bash
-docker run --network host  -it -v ./e2e:/e2e -w /e2e cypress/included 
+docker run --rm --network host  -it -v ./e2e:/e2e -w /e2e cypress/included 
 ```
 This will mount the host directory e2e/cypress and the file e2e/cypress.config.js as volumes within the container. This means that:
-      1. anything that Cypress writes to these folders (e.g., screenshots,
-         videos) appears also on the Docker host's filesystem
-      2. any change that the developer applies to Cypress files on the host
-         machine immediately takes effect within the e2e container (no docker
-         rebuild required).
+1. anything that Cypress writes to these folders (e.g., screenshots,
+ videos) appears also on the Docker host's filesystem
+2. any change that the developer applies to Cypress files on the host
+machine immediately takes effect within the e2e container (no docker
+rebuild required).
 
